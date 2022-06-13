@@ -13,9 +13,31 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/ForestW70">Forest Wilson</a>
+          ITSC canned response loader
         </h1>
 
+        <div id="catControl">
+          <h2 className={styles.heady}>Your catagories</h2>
+          <p><button>Add new catagory</button></p>
+          <div>
+            <button id="general">General</button>
+          </div>
+        </div>
+
+        <div id="currentCats">
+          <h2 className={styles.heady}>Choose response</h2>
+          <button>hello</button>
+          <button>googoo gaga</button>
+        </div>
+
+        <div id="options">
+          <label className={styles.labelTtl} for="theirName">User's name</label>
+          <input type="text" id="theirName"></input>
+          <label className={styles.labelTtl} for="hEnding">happy ending?</label>
+          <input type="checkbox" id="hEnding"></input>
+          <button>Load!</button>
+          
+        </div>
       </main>
 
     </div>

@@ -4,12 +4,13 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(0, 0, 80);
 }
 
 .title a {
@@ -27,6 +28,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  background-color: white;
 }
 
 .title,
@@ -40,3 +42,16 @@
   font-size: 1.5rem;
 }
 
+.heady {
+  background-color: white;
+  color: blue;  
+  width: 50%;
+  padding: 20px;
+    font-style: oblique;
+    font-family: serif;
+}
+
+.labelTtl {
+  background-color: white;
+  color: black;
+}
