@@ -18,25 +18,42 @@ export default function Home() {
 
         <div id="catControl">
           <h2 className={styles.heady}>Your catagories</h2>
-          <p><button>Add new catagory</button></p>
-          <div>
+          <button id="newCat" className={styles.addBtn}>Add new catagory</button>
+          <div className={styles.selektah}>
             <button id="general">General</button>
+            <button>New accounts</button>
           </div>
         </div>
 
         <div id="currentCats">
           <h2 className={styles.heady}>Choose response</h2>
-          <button>hello</button>
-          <button>googoo gaga</button>
+          <button id="newCat" className={styles.addBtn}>Add new catagory</button>
+          <div className={styles.selektah}>
+            <button>hello</button>
+            <button>googoo gaga</button>
+
+          </div>
         </div>
 
         <div id="options">
-          <label className={styles.labelTtl} for="theirName">User's name</label>
-          <input type="text" id="theirName"></input>
-          <label className={styles.labelTtl} for="hEnding">happy ending?</label>
-          <input type="checkbox" id="hEnding"></input>
+          <h2 className={styles.heady}>Choose options</h2>
+          <div className={styles.optBox}>
+            <label className={styles.labelTtl} for="theirName">User's name</label>
+            <input type="text" id="theirName"></input>
+          </div>
+
+          <div className={styles.optBox}>
+            <label className={styles.labelTtl} for="hEnding">happy ending?</label>
+            <input type="checkbox" id="hEnding"></input>
+
+          </div>
           <button>Load!</button>
-          
+
+        </div>
+
+        <div id="copyer">
+          <h2 className={styles.heady}>Your email</h2>
+          <textarea type="text" id="emailDraft" className={styles.draft}></textarea>
         </div>
       </main>
 
